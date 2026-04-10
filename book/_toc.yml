@@ -2,3 +2,5 @@ format: jb-book
 root: intro
 chapters:
   - file: module_00_welcome/lesson
+    sections:
+      - file: module_00_welcome/hello_vla
