@@ -1,0 +1,34 @@
+title: From Zero to Vision-Language-Action Models
+author: Madi Babaiasl, Ph.D.
+logo: ""
+copyright: "2026"
+
+execute:
+  execute_notebooks: "off"
+
+repository:
+  url: https://github.com/madibabaiasl/vla-from-zero
+  path_to_book: book
+  branch: main
+
+html:
+  use_issues_button: true
+  use_repository_button: true
+  use_edit_page_button: true
+  home_page_in_navbar: true
+
+launch_buttons:
+  notebook_interface: "jupyterlab"
+  colab_url: "https://colab.research.google.com"
+  binderhub_url: ""
+  thebe: false
+
+parse:
+  myst_enable_extensions:
+    - amsmath
+    - dollarmath
+    - html_image
+    - colon_fence
+    - linkify
+    - substitution
+    - tasklist
